@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TemperatureViewController">
+            <connections>
+                <outlet property="labelForTemperature" destination="8Ha-3O-BZv" id="aPv-QA-tGR"/>
+                <outlet property="stepper" destination="kbg-u9-xFV" id="Ie7-5R-C62"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Uht-Um-zb3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="--" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ha-3O-BZv">
+                    <rect key="frame" x="240" y="90" width="109" height="168"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="140"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="º" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9Y-Qs-3jg">
+                    <rect key="frame" x="355" y="80" width="38" height="120"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHa-on-rdi">
+                    <rect key="frame" x="0.0" y="550" width="600" height="50"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="0.70000000000000007" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="9xf-44-hUB"/>
+                    </constraints>
+                    <state key="normal" title="Log out">
+                        <color key="titleColor" red="0.96863001589999997" green="0.96863001589999997" blue="0.96863001589999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="logOut:" destination="-1" eventType="touchUpInside" id="8Ij-kF-7US"/>
+                    </connections>
+                </button>
+                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" minimumValue="-5000" maximumValue="5000" translatesAutoresizingMaskIntoConstraints="NO" id="kbg-u9-xFV">
+                    <rect key="frame" x="253" y="271" width="94" height="29"/>
+                    <connections>
+                        <action selector="stepperChanged:" destination="-1" eventType="valueChanged" id="8bm-OP-fVc"/>
+                    </connections>
+                </stepper>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="TESTPOWERED" translatesAutoresizingMaskIntoConstraints="NO" id="cV3-8g-z75">
+                    <rect key="frame" x="254" y="401" width="93" height="47"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="o9Y-Qs-3jg" firstAttribute="leading" secondItem="8Ha-3O-BZv" secondAttribute="trailing" constant="8" id="3ol-7D-yfz"/>
+                <constraint firstAttribute="trailing" secondItem="yHa-on-rdi" secondAttribute="trailing" id="5d6-ws-OC8"/>
+                <constraint firstItem="yHa-on-rdi" firstAttribute="top" secondItem="cV3-8g-z75" secondAttribute="bottom" constant="102" id="84L-jh-TNC"/>
+                <constraint firstAttribute="centerX" secondItem="kbg-u9-xFV" secondAttribute="centerX" id="8rO-CQ-BYL"/>
+                <constraint firstItem="8Ha-3O-BZv" firstAttribute="top" secondItem="o9Y-Qs-3jg" secondAttribute="top" constant="10" id="9Ca-Ij-xnB"/>
+                <constraint firstAttribute="bottom" secondItem="yHa-on-rdi" secondAttribute="bottom" id="K5x-iP-Tmq"/>
+                <constraint firstItem="kbg-u9-xFV" firstAttribute="top" secondItem="8Ha-3O-BZv" secondAttribute="bottom" constant="13" id="RTw-Fg-hv9"/>
+                <constraint firstAttribute="centerX" secondItem="cV3-8g-z75" secondAttribute="centerX" constant="-0.5" id="Zmk-Ti-42F"/>
+                <constraint firstItem="yHa-on-rdi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="cTN-AX-7fg"/>
+                <constraint firstAttribute="centerX" secondItem="8Ha-3O-BZv" secondAttribute="centerX" constant="6.5" id="j3f-Dh-P7a"/>
+                <constraint firstItem="8Ha-3O-BZv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="90" id="oqs-gT-qdz"/>
+            </constraints>
+            <point key="canvasLocation" x="202" y="496"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="TESTPOWERED" width="93" height="47"/>
+    </resources>
+</document>

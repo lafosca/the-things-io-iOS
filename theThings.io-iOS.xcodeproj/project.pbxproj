@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1184CC94AD630604EA31581A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B1B076ACD8303A56470B34 /* libPods.a */; };
+		A0F80FB11B25CDAE00700E9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F80FB01B25CDAE00700E9A /* main.m */; };
+		A0F80FB41B25CDAE00700E9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F80FB31B25CDAE00700E9A /* AppDelegate.m */; };
+		A0F80FB71B25CDAE00700E9A /* TemperatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F80FB61B25CDAE00700E9A /* TemperatureViewController.m */; };
+		A0F80FBC1B25CDAE00700E9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F80FBB1B25CDAE00700E9A /* Images.xcassets */; };
+		A0F80FBF1B25CDAE00700E9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F80FBD1B25CDAE00700E9A /* LaunchScreen.xib */; };
+		A0F80FCB1B25CDAE00700E9A /* theThings_io_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F80FCA1B25CDAE00700E9A /* theThings_io_iOSTests.m */; };
+		A0F80FD61B25D4E700700E9A /* theThingsIOWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F80FD51B25D4E700700E9A /* theThingsIOWrapper.m */; };
+		A0F80FDA1B25DD7500700E9A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F80FD81B25DD7500700E9A /* LoginViewController.m */; };
+		A0F80FDB1B25DD7500700E9A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F80FD91B25DD7500700E9A /* LoginViewController.xib */; };
+		A0F80FDE1B25DF2200700E9A /* TemperatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F80FDD1B25DF2200700E9A /* TemperatureViewController.xib */; };
+		A0F80FE21B25DF9800700E9A /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F80FE11B25DF9800700E9A /* Account.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0F80FC51B25CDAE00700E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0F80FA31B25CDAE00700E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0F80FAA1B25CDAE00700E9A;
+			remoteInfo = "theThings.io-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84B1B076ACD8303A56470B34 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F80FAB1B25CDAE00700E9A /* theThings.io-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "theThings.io-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F80FAF1B25CDAE00700E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F80FB01B25CDAE00700E9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0F80FB21B25CDAE00700E9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0F80FB31B25CDAE00700E9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0F80FB51B25CDAE00700E9A /* TemperatureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemperatureViewController.h; sourceTree = "<group>"; };
+		A0F80FB61B25CDAE00700E9A /* TemperatureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureViewController.m; sourceTree = "<group>"; };
+		A0F80FBB1B25CDAE00700E9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0F80FBE1B25CDAE00700E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A0F80FC41B25CDAE00700E9A /* theThings.io-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "theThings.io-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F80FC91B25CDAE00700E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F80FCA1B25CDAE00700E9A /* theThings_io_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = theThings_io_iOSTests.m; sourceTree = "<group>"; };
+		A0F80FD41B25D4E700700E9A /* theThingsIOWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theThingsIOWrapper.h; sourceTree = "<group>"; };
+		A0F80FD51B25D4E700700E9A /* theThingsIOWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theThingsIOWrapper.m; sourceTree = "<group>"; };
+		A0F80FD71B25DD7500700E9A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A0F80FD81B25DD7500700E9A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A0F80FD91B25DD7500700E9A /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		A0F80FDD1B25DF2200700E9A /* TemperatureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TemperatureViewController.xib; sourceTree = "<group>"; };
+		A0F80FE01B25DF9800700E9A /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		A0F80FE11B25DF9800700E9A /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		A0F80FE31B25E12A00700E9A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		AAB143CB60A4641C3825A8F1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D47561858D71F13F2358BAF1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0F80FA81B25CDAE00700E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1184CC94AD630604EA31581A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F80FC11B25CDAE00700E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16DFFF459BB4A811FE2D450E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D47561858D71F13F2358BAF1 /* Pods.debug.xcconfig */,
+				AAB143CB60A4641C3825A8F1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A1B3C187DFC9EE4D93188F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84B1B076ACD8303A56470B34 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0E960471B26DCD8002E0976 /* theThings-IO */ = {
+			isa = PBXGroup;
+			children = (
+				A0F80FE01B25DF9800700E9A /* Account.h */,
+				A0F80FE11B25DF9800700E9A /* Account.m */,
+				A0F80FD41B25D4E700700E9A /* theThingsIOWrapper.h */,
+				A0F80FD51B25D4E700700E9A /* theThingsIOWrapper.m */,
+			);
+			name = "theThings-IO";
+			sourceTree = "<group>";
+		};
+		A0E960481B26DCEC002E0976 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				A0F80FB21B25CDAE00700E9A /* AppDelegate.h */,
+				A0F80FB31B25CDAE00700E9A /* AppDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		A0F80FA21B25CDAE00700E9A = {
+			isa = PBXGroup;
+			children = (
+				A0F80FAD1B25CDAE00700E9A /* theThings.io-iOS */,
+				A0F80FC71B25CDAE00700E9A /* theThings.io-iOSTests */,
+				A0F80FAC1B25CDAE00700E9A /* Products */,
+				16DFFF459BB4A811FE2D450E /* Pods */,
+				8A1B3C187DFC9EE4D93188F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A0F80FAC1B25CDAE00700E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0F80FAB1B25CDAE00700E9A /* theThings.io-iOS.app */,
+				A0F80FC41B25CDAE00700E9A /* theThings.io-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0F80FAD1B25CDAE00700E9A /* theThings.io-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A0F80FDC1B25DD7E00700E9A /* Classes */,
+				A0F80FAE1B25CDAE00700E9A /* Supporting Files */,
+			);
+			path = "theThings.io-iOS";
+			sourceTree = "<group>";
+		};
+		A0F80FAE1B25CDAE00700E9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0F80FE31B25E12A00700E9A /* Constants.h */,
+				A0F80FBD1B25CDAE00700E9A /* LaunchScreen.xib */,
+				A0F80FBB1B25CDAE00700E9A /* Images.xcassets */,
+				A0F80FAF1B25CDAE00700E9A /* Info.plist */,
+				A0F80FB01B25CDAE00700E9A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0F80FC71B25CDAE00700E9A /* theThings.io-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0F80FCA1B25CDAE00700E9A /* theThings_io_iOSTests.m */,
+				A0F80FC81B25CDAE00700E9A /* Supporting Files */,
+			);
+			path = "theThings.io-iOSTests";
+			sourceTree = "<group>";
+		};
+		A0F80FC81B25CDAE00700E9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0F80FC91B25CDAE00700E9A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0F80FDC1B25DD7E00700E9A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A0E960481B26DCEC002E0976 /* Delegates */,
+				A0E960471B26DCD8002E0976 /* theThings-IO */,
+				A0F80FDF1B25DF6100700E9A /* ViewControllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A0F80FDF1B25DF6100700E9A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0F80FB51B25CDAE00700E9A /* TemperatureViewController.h */,
+				A0F80FB61B25CDAE00700E9A /* TemperatureViewController.m */,
+				A0F80FDD1B25DF2200700E9A /* TemperatureViewController.xib */,
+				A0F80FD71B25DD7500700E9A /* LoginViewController.h */,
+				A0F80FD81B25DD7500700E9A /* LoginViewController.m */,
+				A0F80FD91B25DD7500700E9A /* LoginViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0F80FAA1B25CDAE00700E9A /* theThings.io-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F80FCE1B25CDAE00700E9A /* Build configuration list for PBXNativeTarget "theThings.io-iOS" */;
+			buildPhases = (
+				36D722B51E3F14E442D7D7EB /* Check Pods Manifest.lock */,
+				A0F80FA71B25CDAE00700E9A /* Sources */,
+				A0F80FA81B25CDAE00700E9A /* Frameworks */,
+				A0F80FA91B25CDAE00700E9A /* Resources */,
+				EA6588C7A89C53CA8440F6FF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "theThings.io-iOS";
+			productName = "theThings.io-iOS";
+			productReference = A0F80FAB1B25CDAE00700E9A /* theThings.io-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0F80FC31B25CDAE00700E9A /* theThings.io-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F80FD11B25CDAE00700E9A /* Build configuration list for PBXNativeTarget "theThings.io-iOSTests" */;
+			buildPhases = (
+				A0F80FC01B25CDAE00700E9A /* Sources */,
+				A0F80FC11B25CDAE00700E9A /* Frameworks */,
+				A0F80FC21B25CDAE00700E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0F80FC61B25CDAE00700E9A /* PBXTargetDependency */,
+			);
+			name = "theThings.io-iOSTests";
+			productName = "theThings.io-iOSTests";
+			productReference = A0F80FC41B25CDAE00700E9A /* theThings.io-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0F80FA31B25CDAE00700E9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Lafosca;
+				TargetAttributes = {
+					A0F80FAA1B25CDAE00700E9A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					A0F80FC31B25CDAE00700E9A = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = A0F80FAA1B25CDAE00700E9A;
+					};
+				};
+			};
+			buildConfigurationList = A0F80FA61B25CDAE00700E9A /* Build configuration list for PBXProject "theThings.io-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0F80FA21B25CDAE00700E9A;
+			productRefGroup = A0F80FAC1B25CDAE00700E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0F80FAA1B25CDAE00700E9A /* theThings.io-iOS */,
+				A0F80FC31B25CDAE00700E9A /* theThings.io-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0F80FA91B25CDAE00700E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F80FDB1B25DD7500700E9A /* LoginViewController.xib in Resources */,
+				A0F80FBF1B25CDAE00700E9A /* LaunchScreen.xib in Resources */,
+				A0F80FDE1B25DF2200700E9A /* TemperatureViewController.xib in Resources */,
+				A0F80FBC1B25CDAE00700E9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F80FC21B25CDAE00700E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36D722B51E3F14E442D7D7EB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA6588C7A89C53CA8440F6FF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0F80FA71B25CDAE00700E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F80FB71B25CDAE00700E9A /* TemperatureViewController.m in Sources */,
+				A0F80FB41B25CDAE00700E9A /* AppDelegate.m in Sources */,
+				A0F80FD61B25D4E700700E9A /* theThingsIOWrapper.m in Sources */,
+				A0F80FE21B25DF9800700E9A /* Account.m in Sources */,
+				A0F80FB11B25CDAE00700E9A /* main.m in Sources */,
+				A0F80FDA1B25DD7500700E9A /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F80FC01B25CDAE00700E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F80FCB1B25CDAE00700E9A /* theThings_io_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0F80FC61B25CDAE00700E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0F80FAA1B25CDAE00700E9A /* theThings.io-iOS */;
+			targetProxy = A0F80FC51B25CDAE00700E9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0F80FBD1B25CDAE00700E9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0F80FBE1B25CDAE00700E9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0F80FCC1B25CDAE00700E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A0F80FCD1B25CDAE00700E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0F80FCF1B25CDAE00700E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D47561858D71F13F2358BAF1 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "theThings.io-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0F80FD01B25CDAE00700E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAB143CB60A4641C3825A8F1 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "theThings.io-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0F80FD21B25CDAE00700E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "theThings.io-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/theThings.io-iOS.app/theThings.io-iOS";
+			};
+			name = Debug;
+		};
+		A0F80FD31B25CDAE00700E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "theThings.io-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/theThings.io-iOS.app/theThings.io-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0F80FA61B25CDAE00700E9A /* Build configuration list for PBXProject "theThings.io-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F80FCC1B25CDAE00700E9A /* Debug */,
+				A0F80FCD1B25CDAE00700E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F80FCE1B25CDAE00700E9A /* Build configuration list for PBXNativeTarget "theThings.io-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F80FCF1B25CDAE00700E9A /* Debug */,
+				A0F80FD01B25CDAE00700E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F80FD11B25CDAE00700E9A /* Build configuration list for PBXNativeTarget "theThings.io-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F80FD21B25CDAE00700E9A /* Debug */,
+				A0F80FD31B25CDAE00700E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0F80FA31B25CDAE00700E9A /* Project object */;
+}
