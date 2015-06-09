@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1184CC94AD630604EA31581A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B1B076ACD8303A56470B34 /* libPods.a */; };
 		A0F80FB11B25CDAE00700E9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F80FB01B25CDAE00700E9A /* main.m */; };
 		A0F80FB41B25CDAE00700E9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F80FB31B25CDAE00700E9A /* AppDelegate.m */; };
 		A0F80FB71B25CDAE00700E9A /* TemperatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F80FB61B25CDAE00700E9A /* TemperatureViewController.m */; };
@@ -19,6 +18,7 @@
 		A0F80FDB1B25DD7500700E9A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F80FD91B25DD7500700E9A /* LoginViewController.xib */; };
 		A0F80FDE1B25DF2200700E9A /* TemperatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F80FDD1B25DF2200700E9A /* TemperatureViewController.xib */; };
 		A0F80FE21B25DF9800700E9A /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F80FE11B25DF9800700E9A /* Account.m */; };
+		AC708F0794B5B2544D2117F3 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAC0B6AC3676B67BD4392F9 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		84B1B076ACD8303A56470B34 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAC0B6AC3676B67BD4392F9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F80FAB1B25CDAE00700E9A /* theThings.io-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "theThings.io-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F80FAF1B25CDAE00700E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0F80FB01B25CDAE00700E9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1184CC94AD630604EA31581A /* libPods.a in Frameworks */,
+				AC708F0794B5B2544D2117F3 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 		8A1B3C187DFC9EE4D93188F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				84B1B076ACD8303A56470B34 /* libPods.a */,
+				5EAC0B6AC3676B67BD4392F9 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,6 +207,7 @@
 				A0F80FA81B25CDAE00700E9A /* Frameworks */,
 				A0F80FA91B25CDAE00700E9A /* Resources */,
 				EA6588C7A89C53CA8440F6FF /* Copy Pods Resources */,
+				24126C489286CDD4925CF265 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,6 +295,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		24126C489286CDD4925CF265 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		36D722B51E3F14E442D7D7EB /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
